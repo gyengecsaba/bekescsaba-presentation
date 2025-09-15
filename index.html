@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Békéscsaba</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
+
     <!-- navigation bar -->
-    
+
     <nav>
         <ul class="sidebar">
-            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                        viewBox="0 -960 960 960" width="24px" fill="rgb(220, 220, 220)">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
             <li><a href="#">Történet</a></li>
             <li><a href="#">Programok</a></li>
             <li><a href="#">Látnivalók</a></li>
@@ -24,7 +30,10 @@
             <li class="hideOnMobile"><a href="#">Programok</a></li>
             <li class="hideOnMobile"><a href="#">Látnivalók</a></li>
             <li class="hideOnMobile"><a href="#">Szállások</a></li>
-            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="24px" viewBox="0 -960 960 960" width="24px" fill="rgb(220, 220, 220)">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
         </ul>
     </nav>
 
@@ -38,16 +47,36 @@
 
     <!-- history block -->
 
+    <div class="history">
+        <div class="history-main">
+            <h2>Városunk Története</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime sequi nostrum quidem omnis eos officiis
+            iusto non molestias expedita vero, voluptate vitae, dolorem voluptas quae itaque aliquam? Eos, laudantium
+            voluptate! Dignissimos possimus, inventore enim provident ut optio quod aperiam beatae voluptate quidem.
+            Laboriosam, ad facilis nam nobis quisquam similique dignissimos at, quis cupiditate, aspernatur quas
+            exercitationem eligendi! Vel, sequi delectus voluptate officia consequuntur illo, sit nulla harum aliquam,
+            deserunt alias? Sunt laudantium ad iusto ipsam rerum facilis nostrum, natus exercitationem aliquam quos modi
+            ipsa sapiente sed impedit nam iure eveniet non provident. Aut magnam eum illo et pariatur nobis impedit
+            explicabo labore animi illum aperiam similique, molestiae magni. Quo, fugit et. Voluptatem quo eius
+            reiciendis inventore quam quod quidem maiores. Excepturi, similique illum! Expedita incidunt debitis quidem
+            ipsum. Libero consequuntur reiciendis dolore tempora beatae perferendis quibusdam nesciunt veritatis.
+            Accusantium doloremque, deserunt quisquam, ducimus voluptatibus, sed veniam aspernatur alias a ipsum quis
+            eius eveniet. Sit, libero, tempore voluptatem odit deleniti aut voluptates accusamus doloremque recusandae,
+            dolor praesentium numquam ea vero modi.</p>
+        </div>
+    </div>
+
     <script>
-        function showSidebar(){
+        function showSidebar() {
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'flex'
         }
 
-        function hideSidebar(){
+        function hideSidebar() {
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
         }
     </script>
 </body>
+
 </html>
