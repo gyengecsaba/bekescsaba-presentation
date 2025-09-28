@@ -101,12 +101,5 @@
 	if ($('html').hasClass('editingHeaderBanner')) { koMenuClose() }
 	else { $('html').removeClass('ko_ThemeFixed ko_ThemeOn ko_ThemeOnSide'); $('#headerMenuBar').remove() }
 }; $(document).ready(function () { $(window).resize(function () { $('.keditLayer_video').each(function () { var e = $(this).outerWidth(), t = $(this).outerHeight(), n = '16:9'.split(':'), i = n[0] / n[1], o = e / t > i; $(this).children('iframe').width(o ? e : t * i).height(o ? e / i : t) }) }); $(window).trigger('resize') });/*
-All Levels Navigational Menu (c)http://www.dynamicdrive.com/dynamicindex1/ddlevelsmenu
-Lazy Load (c)https://github.com/verlok/lazyload (MIT License)
-jQuery Parallax (c)https://github.com/IanLunn/jQuery-Parallax (MIT License) with changes by:
-// Updated: mobirise devs: added support for requestAnimationFrame
-	// Adapted from https://gist.github.com/paulirish/1579671 which derived from
-	// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
-	// http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
 
 	// MIT license *//*JS*/; var koSiteName = "Békéscsaba"; $(function () { $(".koLeftMenuOpener").removeClass("invisible"); }); var magnificPopupInit = function () { $('a.lightbox').magnificPopup({ type: 'image', gallery: { enabled: true } }); }; var menuCaption = "Select a page"; $(function (e) { var a = 400, s = e('#scrollToTop'); e(window).scroll(function () { e(this).scrollTop() > a ? s.addClass('active') : s.removeClass('active') }), s.on('click', function (a) { s.removeClass('active'); e('body,html').animate({ scrollTop: 0 }); }) }); $(function () { var dataText = "supermode=update&mode=auto"; $.ajax({ type: "POST", url: "index.php", data: dataText, success: function (data) { console.log("AutoUpdate Status: " + data) } }); }); window.addEventListener('load', function () { ddlevelsmenu.setup("1", "topbar", "0", "0"); }); magnificPopupInit();
