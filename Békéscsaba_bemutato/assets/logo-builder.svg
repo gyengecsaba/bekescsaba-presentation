@@ -1,0 +1,13 @@
+<svg viewBox="0 0 359 100" xmlns="http://www.w3.org/2000/svg" data-debug-style="width:500px;border:1px solid red;">
+<ellipse cx="50" cy="50" rx="50" ry="50" fill="#000000"></ellipse>
+<path d="M 0 50 C 0 7.5 7.5 0 50 0 C 92.5 0 100 7.5 100 50 C 100 92.5 92.5 100 50 100 C 7.5 100 0 92.5 0 50" fill="#000000"></path><ellipse cx="60" cy="65" rx="25" ry="25" fill="#ffffff"></ellipse>
+<ellipse cx="70" cy="25" rx="14" ry="14" fill="#ffffff"></ellipse>
+<ellipse cx="50" cy="10" rx="7" ry="7" fill="#ffffff"></ellipse>
+
+
+
+
+<text style="font-family: Arial, sans-serif; font-size: 75px; font-weight: 700; letter-spacing: -5px; white-space: pre;" x="125" y="75" fill="#000000">Builder</text>
+
+
+</svg>
